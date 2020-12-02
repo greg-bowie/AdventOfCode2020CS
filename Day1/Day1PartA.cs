@@ -6,7 +6,6 @@ namespace Day1
 {
     public class Day1PartA
     {
-        // Sorted: Takes 8ms for file list
         public Tuple<int, int> GetNumbersSummingTo2020(List<int> inputList)
         {
             // Sort list

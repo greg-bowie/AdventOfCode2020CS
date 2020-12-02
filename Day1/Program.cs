@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BenchmarkDotNet.Running;
+using Day1.Benchmarks;
+using System;
 
 namespace Day1
 {
@@ -6,8 +8,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            var summary = BenchmarkRunner.Run<Day1PartABenchmarks>();
         }
     }
 }
