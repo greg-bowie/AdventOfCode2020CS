@@ -8,8 +8,6 @@ namespace Day1
     {
         public Tuple<int, int> GetNumbersSummingTo2020(List<int> inputList)
         {
-            // Sort list
-            // do loop for front and back, and bail-out when sum is less than 2020
             inputList.Sort();
 
             for (int i = 0; i < inputList.Count; i++)
@@ -28,7 +26,6 @@ namespace Day1
             return Tuple.Create(0, 0);
         }
 
-        // Sorted: Takes 6-10 ms for file list
         public Tuple<int, int> GetNumbersSummingTo2020_Sorted(List<int> inputList)
         {
             // Sort list
@@ -53,7 +50,6 @@ namespace Day1
             return Tuple.Create(0, 0);
         }
 
-        // Takes 8-9 ms for file list
         public Tuple<int, int> GetNumbersSummingTo2020_Dirty(List<int> inputList)
         {
             for (int i = 0; i < inputList.Count; i++)

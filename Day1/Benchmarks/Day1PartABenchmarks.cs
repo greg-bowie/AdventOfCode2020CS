@@ -10,6 +10,8 @@ namespace Day1.Benchmarks
     {
         // Was 1.160 microseconds using .NET 3.1.9
         // Is 989.9 nanoseconds using .NET 5.0
+        // Is 2.3 microsecond - Removed non-required Sort() call using .NET 5.0
+        // Is 1.030 microseconds - returned Sort() call using .NET 5.0.
         [Benchmark(Baseline = true)]
         public void GetNumbersSummingTo2020_Benchmark()
         {
