@@ -14,12 +14,7 @@ namespace Day1Tests
         {
             List<int> inputList = new List<int>
             {
-                1721,
-                979,
-                366,
-                299,
-                675,
-                1456
+                1721, 979, 366, 299, 675, 1456
             };
 
             Day1PartA sut = new Day1PartA();
