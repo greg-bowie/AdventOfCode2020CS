@@ -10,7 +10,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<Day2PartBBenchmarks>();
+            var summary = BenchmarkRunner.Run<Day3Benchmarks>();
         }
     }
 }
